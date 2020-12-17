@@ -1,6 +1,4 @@
-# from .config.config import config
-# from .logger import register_logger
-from config import config
+from config.config import config
 from logger import register_logger
 
 from flask import Flask
